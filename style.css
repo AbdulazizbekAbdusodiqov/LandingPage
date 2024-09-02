@@ -91,3 +91,10 @@ img{
     gap: 20px;
     flex: 1;
 }
+.footer_box{
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    background-color: green;
+}
