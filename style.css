@@ -52,6 +52,7 @@ h1{
 
 .body_box{
     display: flex;
+    background-color: antiquewhite;
 }
 .body_right{
     width: 30%;
@@ -157,7 +158,9 @@ img:hover{
     color: #fff;
     opacity: 0.70;
 }
-
+.body_first_img{
+    margin: 40px 0px 30px 60px;
+}
 @media (max-width: 700px){
     .header_box{
         display: table;
@@ -177,6 +180,9 @@ img:hover{
     }
     img{
         margin: 35px;
+    }
+    .body_first_img{
+        margin: 40px 0px 30px 35px;
     }
     .body_p{
         width: 50%;
