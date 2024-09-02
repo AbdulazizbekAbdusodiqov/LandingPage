@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header_box{
+    color: #703412;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header_top{
+    display: flex;
+    color: #703412;
+}
+.header_top ul,li{
+    display: flex;
+    margin: 15px 0px 0px 100px;
+}
+.header_top ul li a{
+    text-decoration: none;
+    color: #703412;
+}
+
+h1{
+    margin: 20px;
+    margin-right: 200px;
+}
+.header_buttom{
+    margin: 40px;
+}
+.header_buttom h6{
+    margin: 50px;
+    margin-top: 90px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.header_buttom h2{
+    font-size: 100px;
+    font-weight: 400;
+    width: 80%;
+}
+.my_teg{
+    color: #c26733
+}
