@@ -1,10 +1,12 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family:  Arial, sans-serif;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .header_box{
     color: #703412;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .header_top{
     display: flex;
@@ -24,19 +26,68 @@ h1{
     margin-right: 200px;
 }
 .header_buttom{
-    margin: 40px;
+    margin: 50px;
 }
 .header_buttom h6{
-    margin: 50px;
-    margin-top: 90px;
+    margin: 60px;
+    margin-top: 150px;
     font-size: 15px;
     font-weight: 400;
 }
-.header_buttom h2{
-    font-size: 100px;
+.header_buttom h3{
+    font-size: 80px;
     font-weight: 400;
-    width: 80%;
+    width: 848px;
 }
 .my_teg{
     color: #c26733
+}
+
+p{
+    color: #c26733;
+    margin: 60px;
+    margin-top: 150px;
+    font-size: 40px;
+    width: 570px;
+}
+
+.body_box{
+    display: flex;
+}
+.body_right{
+    width: 30%;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.body_middle{
+    width: 30%;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.body_left{
+    width: 30%;
+    flex-direction: column;
+
+}
+img{
+    width: 80%;
+    margin: 0px 0px 0px 60px;
+    border-radius: 10px;
+    
+}
+.img_header_p{
+    width: 80%;
+    margin: 0px 0px 10px 60px;
+    text-align: left;
+    font-size: 20px;
+}
+.img_footer_p{
+    width: 80%;
+    text-align: left;
+    margin: 0px 0px 50px 60px;
+    font-size: 12px;
+    gap: 20px;
+    flex: 1;
 }
