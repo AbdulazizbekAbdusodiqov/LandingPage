@@ -7,12 +7,12 @@
 .container{
     width: 100%;
     height: 100%;
+    margin: 0 auto;
 }
 
 .circle{
     width: 80px;
     height: 60px;
-    margin-right: 1190px;
 }
 .fisrt_circle{
     margin-left: 30px;
@@ -24,7 +24,7 @@
     width: 32px;
     z-index: 1;
     left: 0;
-    top: 14px; /* Bu yerda top qiymatini 14px qilib o'zgartirdim */
+    top: 14px; 
 }
 
 .second_circle{
@@ -51,10 +51,15 @@
     width: 100%;
     position: fixed;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .menyu{
     width: 32px;
     height: 32px;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
 }
 .header_box{
     display: flex;
@@ -171,4 +176,30 @@
     display: flex;
     justify-content: center;
     margin-top: 100px;
+}
+.head_center{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    top: 30px;
+    right: -100%;
+    transition: 0.5s;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked+.head_center{
+    top: 30px;
+    right: 0;
+}
+
+.head_center a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
 }
